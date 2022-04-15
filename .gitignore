@@ -1,0 +1,14 @@
+*.swp
+.DS_Store
+view/
+sessions/
+autoload/plug.vim.old
+tmp/
+.netrwhist
+_machine_specific.vim
+.vim-bookmarks
+-p/
+*.un~
+README.md
+README_cn.md
+README-legacy.md
