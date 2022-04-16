@@ -9,6 +9,7 @@ _machine_specific.vim
 .vim-bookmarks
 -p/
 *.un~
+package-lock.json
 README.md
 README_cn.md
 README-legacy.md

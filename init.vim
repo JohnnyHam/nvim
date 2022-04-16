@@ -522,6 +522,7 @@ nnoremap <LEADER>g= :GitGutterNextHunk<CR>
 
 " ==================== coc.nvim ====================
 let g:coc_global_extensions = [
+	\ 'coc-marketplace',
 	\ 'coc-css',
 	\ 'coc-diagnostic',
 	\ 'coc-docker',
@@ -549,7 +550,8 @@ let g:coc_global_extensions = [
 	\ 'coc-vetur',
 	\ 'coc-vimlsp',
 	\ 'coc-yaml',
-	\ 'coc-yank']
+	\ 'coc-yank',
+	\ 'coc-solargraph']
 inoremap <silent><expr> <TAB>
 	\ pumvisible() ? "\<C-n>" :
 	\ <SID>check_back_space() ? "\<TAB>" :
